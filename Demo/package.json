@@ -1,0 +1,26 @@
+{
+  "name": "vanakkamreact",
+  "version": "1.0.0",
+  "description": "this is my comeback",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayasuriyaravi/VanakkamReact.git"
+  },
+  "keywords": [
+    "vanakkamReact"
+  ],
+  "author": "Suriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayasuriyaravi/VanakkamReact/issues"
+  },
+  "homepage": "https://github.com/jayasuriyaravi/VanakkamReact#readme",
+  "dependencies": {
+    "parcel": "^2.15.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
