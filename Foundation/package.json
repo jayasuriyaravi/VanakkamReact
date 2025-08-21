@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "name": "foundation",
+  "version": "1.0.0",
+  "description": "this is foundation",
+  "devDependencies": {},
+  "scripts": {
+    "test": "just",
+    "start":"parcel index.html",
+    "build" : "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
