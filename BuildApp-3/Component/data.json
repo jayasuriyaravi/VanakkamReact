@@ -1,0 +1,762 @@
+[
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "16227",
+                                            "name": "Pizza Hut",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/0d1d046a-9d43-4090-ab45-293ca5f54761_16227.JPG",
+                                            "locality": "Anna Nagar",
+                                            "areaName": "Anna Nagar",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Pizzas"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "parentId": "721",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "19K+",
+                                            "sla": {
+                                                "deliveryTime": 25,
+                                                "lastMileTravel": 0.6,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "0.6 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹98"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.3",
+                                                    "ratingCount": "2.5K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/pizza-hut-anna-nagar-rest16227",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "23741",
+                                            "name": "McDonald's",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/3/80755e1d-98a4-46bf-9ab5-4a3ea07d6d67_23741.jpg",
+                                            "locality": "Anna Nagar",
+                                            "areaName": "Anna Nagar",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "Beverages",
+                                                "Cafe",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "630",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "49K+",
+                                            "sla": {
+                                                "deliveryTime": 28,
+                                                "lastMileTravel": 2.5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "2.5 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 02:45:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                                        "description": "bolt!"
+                                                    },
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Burger.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "bolt!",
+                                                                    "imageId": "android/static-assets/icons/big_rx.png"
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹119"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.3",
+                                                    "ratingCount": "9.3K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/mcdonalds-anna-nagar-rest23741",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "24360",
+                                            "name": "Domino's Pizza",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/14/f431c61d-cb5b-42ec-a85d-fea377487180_24360.JPG",
+                                            "locality": "Anna Nagar",
+                                            "areaName": "Anna Nagar",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Pizzas",
+                                                "Italian",
+                                                "Pastas",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "2456",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "26K+",
+                                            "sla": {
+                                                "deliveryTime": 30,
+                                                "lastMileTravel": 2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "2.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 02:59:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹69"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.0",
+                                                    "ratingCount": "2.5K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/dominos-pizza-anna-nagar-rest24360",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "472302",
+                                            "name": "Sathya Food",
+                                            "cloudinaryImageId": "hebofbz4uqvezynvj7iv",
+                                            "locality": "Kodambakkam",
+                                            "areaName": "Thirumangalam",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "South Indian",
+                                                "Chinese"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "veg": true,
+                                            "parentId": "453002",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "3.6K+",
+                                            "sla": {
+                                                "deliveryTime": 16,
+                                                "lastMileTravel": 0.8,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "15-20 mins",
+                                                "lastMileTravelString": "0.8 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 04:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                                        "description": "bolt!"
+                                                    },
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "pureveg"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "bolt!",
+                                                                    "imageId": "android/static-assets/icons/big_rx.png"
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "pureveg",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "₹100 OFF",
+                                                "subHeader": "ABOVE ₹599",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "3.4",
+                                                    "ratingCount": "12"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/sathya-food-kodambakkam-thirumangalam-rest472302",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "113744",
+                                            "name": "Pluto's Restaurant",
+                                            "cloudinaryImageId": "ukqwvj7vxxq882yuzwti",
+                                            "locality": "Choolaimedu Hogh Road",
+                                            "areaName": "Kodambakkam",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "Indian",
+                                                "Chinese"
+                                            ],
+                                            "avgRating": 4.1,
+                                            "parentId": "17492",
+                                            "avgRatingString": "4.1",
+                                            "totalRatingsString": "2.6K+",
+                                            "sla": {
+                                                "deliveryTime": 36,
+                                                "lastMileTravel": 3.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "35-40 mins",
+                                                "lastMileTravelString": "3.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 04:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹19"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.2",
+                                                    "ratingCount": "2.5K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/plutos-restaurant-choolaimedu-hogh-road-kodambakkam-rest113744",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "803727",
+                                            "name": "Night Feast",
+                                            "cloudinaryImageId": "afce5d15b4857287422696b048f5f4dc",
+                                            "locality": "Padi",
+                                            "areaName": "Anna Nagar",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "Chinese",
+                                                "Biryani"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "parentId": "17053",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "604",
+                                            "sla": {
+                                                "deliveryTime": 32,
+                                                "lastMileTravel": 4,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "4.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 05:59:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/night-feast-padi-anna-nagar-rest803727",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "805285",
+                                            "name": "Burger King",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/7a83be1c-9437-4155-8afa-e5ad0a8d2567_805285.jpg",
+                                            "locality": "Mogappair",
+                                            "areaName": "Thiruvallur",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "American"
+                                            ],
+                                            "avgRating": 4.3,
+                                            "parentId": "166",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "6.2K+",
+                                            "sla": {
+                                                "deliveryTime": 24,
+                                                "lastMileTravel": 5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "5.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 05:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Burger.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹59"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/burger-king-mogappair-thiruvallur-rest805285",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "673454",
+                                            "name": "Juice Theory",
+                                            "cloudinaryImageId": "c39ddfcdd45e9a1b74e9995cf5e8cf63",
+                                            "locality": "R.V. Nagar",
+                                            "areaName": "Annanagar",
+                                            "costForTwo": "₹150 for two",
+                                            "cuisines": [
+                                                "Juices",
+                                                " Salads",
+                                                " Healthy Food",
+                                                " Shakes",
+                                                "Milkshakes",
+                                                "Burgers",
+                                                "sandwich",
+                                                "Snacks",
+                                                "Momos",
+                                                "healthy"
+                                            ],
+                                            "avgRating": 4.6,
+                                            "parentId": "385941",
+                                            "avgRatingString": "4.6",
+                                            "totalRatingsString": "4.0K+",
+                                            "sla": {
+                                                "deliveryTime": 29,
+                                                "lastMileTravel": 1.7,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "1.7 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-08-24 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "android/static-assets/icons/big_rx.png",
+                                                        "description": "bolt!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "bolt!",
+                                                                    "imageId": "android/static-assets/icons/big_rx.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-d9f8520b-e3b4-4c4b-ba61-26ac99d9fee1"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/chennai/juice-theory-r-v-nagar-annanagar-rest673454",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                    }
+]

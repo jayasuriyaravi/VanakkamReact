@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom/client";
+import Header from "./Component/Header";
+import Body from "./Component/Body";
+import css from './index.css'
 
 /* 
 Header
@@ -19,7 +22,8 @@ Footer
 const App = () => {
   return (
     <div className="container">
-      <h1>iam from the new application</h1>
+      <Header/>
+      <Body/>
     </div>
   );
 };
