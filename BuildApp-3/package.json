@@ -2,10 +2,9 @@
   "name": "buildapp-3",
   "version": "1.0.0",
   "description": "start the build the first app",
-  
   "scripts": {
-    "start":"parcel index.html",
-    "build" : "parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "just"
   },
   "author": "suriya",
@@ -13,6 +12,7 @@
   "dependencies": {
     "parcel": "^2.15.4",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.23.1"
   }
 }

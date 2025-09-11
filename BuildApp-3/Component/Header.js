@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom/client";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
       <div className="nav-con">
         <ul className="nav-items">
           <li>home</li>
-          <li>About us</li>
+          <Link to="/about">
+            <li>About us</li>
+          </Link>
           <li>contact</li>
           <li>cart</li>
         </ul>

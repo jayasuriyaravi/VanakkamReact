@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDom from "react-dom/client";
 import Header from "./Component/Header";
 import Body from "./Component/Body";
-import css from './index.css'
+import "./index.css";
+import About from "./Component/About";
+import { BrowserRouter ,Routes,Route} from "react-router-dom"; 
 
 /* 
 Header
@@ -21,14 +21,15 @@ Footer
 
 const App = () => {
   return (
-    <div className="container">
-      <Header/>
-      <Body/>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Body />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/rest/:id" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
-const root = ReactDom.createRoot(document.getElementById("root"));
-
-root.render(<App />);
-   
+export default App;
