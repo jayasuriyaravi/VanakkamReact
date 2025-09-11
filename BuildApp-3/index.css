@@ -81,3 +81,35 @@ li {
     padding: 5px 0px;
 }
 
+.menu-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px 40px;
+}
+.rest-details{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 10px;
+    border: solid rgb(146, 145, 145) 1px;
+    border-radius: 10px;
+    max-width: 500px;
+    background-color: rgb(236, 235, 235);
+}
+.rest-details p{
+    padding-top: 10px;
+}
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 10px;
+    border: solid rgb(146, 145, 145) 1px;
+    border-radius: 10px;
+    max-width: 500px;
+    background-color: rgb(236, 235, 235);
+}
+.menu-card p{
+    padding-top: 10px;
+}

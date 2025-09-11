@@ -1,8 +1,9 @@
 import Header from "./Component/Header";
 import Body from "./Component/Body";
-import "./index.css";
+import "../index.css";
 import About from "./Component/About";
 import { BrowserRouter ,Routes,Route} from "react-router-dom"; 
+import RestMenu from "./Component/RestMenu";
 
 /* 
 Header
@@ -26,7 +27,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/about" element={<About />} />
-        <Route path="/rest/:id" element={<About />} />
+        <Route path="/rest/:id" element={ <RestMenu/>} />
       </Routes>
     </BrowserRouter>
   );

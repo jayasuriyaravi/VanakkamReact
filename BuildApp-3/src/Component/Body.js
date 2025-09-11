@@ -72,9 +72,9 @@ const Body = () => {
         <Card name="chinese" cus="noodles" rating="4.3" time="36" /> */}
 
         {/* these card are using the realtime json data from the api */}
-        {console.log(filteredRest)}
+        {/* {console.log(filteredRest[0].info.id)} */}
         {filteredRest.map((rest, index) => (
-          <Link key={index} to={"/rest/"+filteredRest.info.id}>
+          <Link key={rest.info.id} to={"/rest/"+rest.info.id}>
             <Card rest={rest} />
           </Link>
         ))}
