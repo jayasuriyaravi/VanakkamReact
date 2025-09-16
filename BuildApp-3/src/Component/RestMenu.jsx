@@ -1,25 +1,20 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import RestMenuCard from "./RestMenuCard";
+import useRest from "./useRest";
+import RestCat from "./RestCat";
+import MenuContext from "../context/MenuContext";
+import UserContext from "../context/UserContext";
 
 function RestMenu() {
-  const [restMenu, setRestMenu] = useState(null);
+  // const [restMenu, setRestMenu] = useState(null);
+
+  const [showIndex, setShowIndex] = useState(null);
+
   const { id } = useParams();
 
-  useEffect(() => {
-    getRestMenu();
-  }, []);
+  const restMenu = useRest({ id });
 
-  const getRestMenu = async () => {
-    let data = await fetch(
-      `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=13.0448827&lng=80.124266&restaurantId=${id}&catalog_qa=undefined&submitAction=ENTER`
-    );
-
-    let json = await data.json();
-
-    // console.log(json)
-    setRestMenu(json);
-  };
   if (!restMenu) {
     return <h2>Loading restaurant details...</h2>;
   }
@@ -37,14 +32,25 @@ function RestMenu() {
   const { itemCards } =
     restMenu.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[1].card.card;
 
-  console.log(itemCards);
+  const restCat =
+    restMenu.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards.filter(
+      (c) => {
+        return (
+          c?.card?.card?.["@type"] ===
+          "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+        );
+      }
+    );
+
+  // console.log(restCat);
+  const{userName} = useContext(UserContext);
 
   return (
     <div className="menu-con">
       <div className="rest-details">
+        <p>username:{userName}</p>
         <h1 className="restName">{name}</h1>
         <p className="rating">
-          {" "}
           {avgRatingString + " ( " + totalRatingsString + " ) "}
         </p>
         <p className="rest-price">{costForTwoMessage}</p>
@@ -54,30 +60,41 @@ function RestMenu() {
           {sla.minDeliveryTime + " - " + sla.maxDeliveryTime + " mins"}
         </p>
       </div>
-      <h1>Menu</h1>
-      {itemCards.length>0?itemCards.map((menu) => (
-        <RestMenuCard key={menu.card.info.id} items={menu} />
-      )):<>no menu</>}
+      {/* <h1>Menu</h1>
+      {itemCards.length > 0 ? (
+        itemCards.map((menu) => (
+          <RestMenuCard key={menu.card.info.id} items={menu} />
+        ))
+      ) : (
+        <>no menu</>
+      )} */}
+      {restCat.map((c, i) => {
+        return (
+          // <MenuContext.Provider value={{setShowIndex}}>
+          <RestCat
+            key={i}
+            restCato={c}
+            showItems={i === showIndex ? true : false}
+            setindex={()=>{
+              setShowIndex(i)
+            }}
+          />
+          // </MenuContext.Provider>
+        );
+      })}
     </div>
   );
 }
 
 // A2B - Adyar Ananda Bhavan
 // 4.5 (101K+ ratings)
-// •
 // ₹300 for two
-// South Indian,
-
-// Sweets
-
-// Outlet
-// Porur
-// ▾
+// South Indian,Sweets
+// Outlet-Porur
 // 40-50 mins
 
 // Mus Fried Rice -Manchurian Gravy Combo
-// 249
-// 149
-// 4.1
-// (7)
+// 249-149
+// 4.1(7)
+
 export default RestMenu;
